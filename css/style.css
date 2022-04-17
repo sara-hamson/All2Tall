@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #004608;
+  font-size: 20px;
+  font-family: "Garamond", "Helvitica", sans-serif !important;
+}
+body {
+  background-size: cover;
+  background-color: white;
+  background-image: linear-gradient(rgba(248, 249, 250, 1),rgba(0, 150, 0, 0.15));
+  padding-bottom: 100px;
+}
+h1 {
+  margin-top: 0px;
+  font-size: 3em;
+  color: #00610B;
+}
+h4 {
+  font-size: 1.3em;
+  font-style: italic;
+  color: green;
+  margin-bottom: 15px;
+}
+p em {
+  color:#AA3300;
+}
+p {
+  color: #00610B;
+  margin: 15px;
+
+}
+.pf {
+  margin:0px;
+  padding: 3px;
+}
+hr {
+  border: 1px dashed;
+  border-color: #FF6600;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding:inherit;
+  max-width: 80%
+
+}
+#listingHolder {
+  height: auto;
+  background-color: white;
+  background-image: linear-gradient(rgba(248, 249, 250, 1),rgba(0, 150, 0, 0.15));
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+#property {
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  border-color: #008000;
+  color: #008000;
+  justify-content: center;
+  width: 15em;
+}
+#gradient {
+  height:  100vh;
+  background-color: white;
+  background-image: linear-gradient(rgba(248, 249, 250, 1),rgba(0, 150, 0, 0.15));
+  padding-bottom: 100px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a:link {
+  color:White;
+}
+a:visited{
+  color:White;
+}
+a:hover {
+  color:#blue;
+}
+a:active{
+  color:#green;
+}
+.review p {
+  color:#CC3333;
+}
+.review h5 {
+  text-align: left;
+  margin-left: 20px;
+}
+.collumn {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  align-self:center;
+}
+
+.photo-grid {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+.active>.nav-link {
+  color: #00610B !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: green;
+}
+.navbar-brand {
+  color: #00610B !important;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+  /*  background-color: #F09A9D;  Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+  /*  background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+  /*  background-color: #B2D6FF; /* Blue */
+  }
+}
+.footer {
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color: green;
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #45a049;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #04AA6D;
+}
+input {
+  text-align: left;
+
+}
+textarea {
+  text-align: left;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  color: #00610B;
+}
+form {
+  color: #00610B;
+  justify-content: left;
+  text-align: left;
+
+}
